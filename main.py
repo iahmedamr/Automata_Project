@@ -2,6 +2,8 @@ from patterns import (
     find_emails, find_cards, find_dates, find_phones,
     find_addresses, find_names
 )
+"""dsfdlsnflsd"""
+
 
 def read_txt(path):
     with open(path, "r", encoding="utf-8", errors="ignore") as f:
