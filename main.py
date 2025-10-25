@@ -5,6 +5,12 @@ import pdfplumber
 import docx
 import phonenumbers
 import dateparser
+from patterns import (
+    find_emails, find_cards, find_dates, find_phones,
+    find_addresses, find_names
+)
+"""dsfdlsnflsd"""
+
 
 # ---------- regex patterns ----------
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
