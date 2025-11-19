@@ -1,5 +1,5 @@
 from patterns import (
-    find_emails, find_cards, find_dates, find_phones,
+    find_emails, find_dates, find_phones,
     find_addresses, find_names
 )
 
@@ -13,8 +13,7 @@ def process_text(text):
         "emails": find_emails(text),
         "phones": find_phones(text),
         "dates": find_dates(text),
-        "addresses": find_addresses(text),
-        "cards": find_cards(text),
+        "addresses": find_addresses(text)
     }
 
     print("\n=== SUMMARY ===")
@@ -32,3 +31,8 @@ def process_text(text):
 if __name__ == "__main__":
     text = read_txt("sample.txt")
     process_text(text)
+    # 8 names
+    # 4 emails
+    # 6 phone numbers
+    # 3 dates
+    # 5 addresses
