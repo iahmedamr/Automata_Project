@@ -1,6 +1,7 @@
 from patterns import (
     find_emails, find_dates, find_phones,
-    find_addresses, find_names
+    find_addresses
+    # , find_names
 )
 
 def read_txt(path):
@@ -9,7 +10,7 @@ def read_txt(path):
 
 def process_text(text):
     results = {
-        "names": find_names(text),
+        # "names": find_names(text),
         "emails": find_emails(text),
         "phones": find_phones(text),
         "dates": find_dates(text),
