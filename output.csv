@@ -1,0 +1,30 @@
+ln,match,type,start_col,end_col
+1,John Miller,names,24,35
+1,Emily Clark,names,49,60
+1,"221B Baker Street, London",addresses,64,89
+1,Baker Street,names,69,81
+2,5 Jan 2023,dates,43,53
+4,emily.clark@univ.edu,emails,30,50
+4,sara.brown24@gmail.com,emails,84,106
+5,+1 202 555 0175,phones,16,31
+5,(212) 555-0189,phones,81,95
+7,Robert Hayes,names,44,56
+7,"15 Wall Street, New York City",addresses,58,87
+7,Wall Street,names,61,72
+7,New York,names,74,82
+8,2022-11-09,dates,54,64
+10,unknown.sender@domain.co.uk,emails,35,62
+11,742 Evergreen Rd,addresses,27,43
+11,Evergreen Rd,names,31,43
+11,1600 Pennsylvania Avenue,addresses,47,71
+11,Pennsylvania Avenue,names,52,71
+13,Jane Doe,names,35,43
+13,10 Downing Street,addresses,66,83
+13,Downing Street,names,69,83
+14,john.miller@travel.com,emails,35,57
+16,Sarah Connor,names,52,64
+16,10/24/2025,dates,68,78
+20,2025550199,phones,1,11
+20,+44 20 7946 0958,phones,13,29
+20,(310)-555-0147,phones,31,45
+20,+91-98765-43210.,phones,47,63
